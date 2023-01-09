@@ -14,7 +14,7 @@ with open('datos.csv') as File:
             Bid.append(float(row[2]))
             contador +=1
         except:
-            print("A ver si cuela")
+            print("Error")
 
 print(len(Ask))
 print(len(Bid))
